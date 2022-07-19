@@ -1,0 +1,34 @@
+@import "../../assets/css/config";
+
+.pax-page-container{
+  .innerpage-btn{
+    margin-top: 1.6em;
+  }
+
+  .innerpage-sec{
+    a.btn-img {
+      width: 12em;
+      display: block;
+      cursor: url('../../img/cursor2.png'), auto;
+    }
+  }
+  .stranesections.paxlightsections{
+    .innerpage-sec:nth-child(1n){
+      .innerpage-sec-content {
+        flex-direction: row-reverse;
+      }
+    }
+    .innerpage-sec:nth-child(2n){
+      background-color: $unnamed-color-e6e6e6;
+      .innerpage-sec-content {
+        flex-direction: row;
+      }
+      h3, h2, p{
+        color: $unnamed-color-191919;
+      }
+    }
+    .paxmobilelink{
+      display: none;
+    }
+  }
+}

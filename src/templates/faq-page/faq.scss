@@ -1,0 +1,78 @@
+@import "../../assets/css/config";
+
+.faq-page-container {
+  .accor-img {
+    position: absolute;
+    left: 0;
+    top: -0.6em;
+    img {
+      width: 3.8em;
+      margin: 0;
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      vertical-align: top;
+    }
+    min-width: 8em;
+  }
+
+  .faq-cat {
+    .wrap {
+      .accordion__item {
+        &:not(:last-child) {
+          padding-bottom: 5em;
+        }
+      }
+    }
+  }
+
+  .accr-body {
+    padding-top: 2.5em;
+    padding-left: 8em;
+    a{
+      color: #808080;
+      text-decoration: none;
+    }
+  }
+
+  .accordion__button {
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    cursor: url('../../img/cursor2.png'), auto;
+    position: relative;
+    padding-left: 8em;
+  }
+
+  .accr-title {
+    display: flex;
+    align-items: center;
+    
+    h3 {
+      text-transform: unset;
+      outline: none;
+    }
+  }
+
+  .accor-content {
+    p {
+      padding-bottom: 0;
+    }
+  }
+
+  .faq-accor {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .accordion__button[aria-expanded='true'] {
+    .accor-img {
+      img {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        vertical-align: top;
+
+      }
+    }
+  }
+  
+}

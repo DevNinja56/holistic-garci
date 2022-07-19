@@ -1,0 +1,419 @@
+$unnamed-color-000000: #000000;
+
+$unnamed-color-e4002b: #E4002B;
+
+$unnamed-color-efdf00: #EFDF00;
+
+$unnamed-color-e6e6e6: #E6E6E6;
+
+$unnamed-color-ffffff: #FFFFFF;
+
+$unnamed-color-191919: #191919;
+
+$unnamed-color-4b4f54: #4b4f54;
+
+
+
+
+$unnamed-font-family-barlow: 'Barlow';
+
+$unnamed-font-family-zilla-slab: Zilla Slab;
+
+$unnamed-font-style-normal: normal;
+
+$unnamed-font-style-italic: italic;
+
+$unnamed-font-weight-300: 300;
+
+$unnamed-font-weight-500: 500;
+
+$unnamed-font-weight-600: 600;
+
+$unnamed-font-weight-normal: normal;
+
+$unnamed-font-weight-bold: bold;
+
+$unnamed-font-size-11: 0.68em;
+
+$unnamed-font-size-12: 0.75em;
+
+$unnamed-font-size-14: 0.875em;
+
+$unnamed-font-size-16: 1em;
+
+$unnamed-font-size-18: 1.125em;
+
+$unnamed-font-size-20: 1.25em;
+
+$unnamed-font-size-24: 1.5em;
+
+$unnamed-font-size-30: 1.875em;
+
+$unnamed-font-size-36: 2.25em;
+
+$unnamed-font-size-42: 2.625em;
+
+$unnamed-font-size-48: 3em;
+
+$unnamed-font-size-60: 3.75em;
+
+$unnamed-font-size-90: 5.625em;
+
+$unnamed-font-size-100: 6.25em;
+
+$unnamed-character-spacing-0: 0px;
+
+$unnamed-text-transform-uppercase: uppercase;
+
+
+
+
+.cta-button-barlow-—-30pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-600;
+
+  font-size: $unnamed-font-size-30;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+
+  text-transform: $unnamed-text-transform-uppercase;
+}
+
+.p-white-barlow-—-34pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-30;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-ffffff;
+}
+
+
+.question-barlow-—-30pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-600;
+
+  font-size: $unnamed-font-size-30;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+}
+
+.p-black-barlow-—-30pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-30;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+}
+
+.p-details-barlow-—-24pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-italic;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-24;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-ffffff;
+}
+
+.mobile-p-white-barlow-—-24pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-20;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-ffffff;
+}
+
+.cta-button-mobile-barlow-—-20pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-600;
+
+  font-size: $unnamed-font-size-20;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+
+  text-transform: $unnamed-text-transform-uppercase;
+}
+
+.store-name-barlow-—-20pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-bold;
+
+  font-size: $unnamed-font-size-20;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-191919;
+}
+
+.store-address-barlow-—-20pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-20;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-191919;
+}
+
+.mobile-p-barlow-—-24pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-20;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-191919;
+}
+
+.user-entry-before-barlow-—-20pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-24;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-4b4f54;
+}
+
+.mobile-p-details-white-barlow-—-16pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-italic;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-16;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-ffffff;
+}
+
+.mobile-p-details-barlow-—-16pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-italic;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-16;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-191919;
+}
+
+.mobile-user-entry-before-barlow-—-16pt {
+  font-family: $unnamed-font-family-barlow;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-16;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-4b4f54;
+}
+
+.h1-zilla-slab-—-100pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-bold;
+
+  font-size: $unnamed-font-size-100;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+
+  text-transform: $unnamed-text-transform-uppercase;
+}
+
+.h1-zilla-slab-—-90pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-bold;
+
+  font-size: $unnamed-font-size-90;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+
+  text-transform: $unnamed-text-transform-uppercase;
+  line-height: normal;
+}
+
+.h2-white-zilla-slab-—-90pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-90;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-ffffff;
+}
+
+.h2-black-zilla-slab-—-90pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-90;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-191919;
+  line-height: normal
+}
+
+.mobile-h1-zilla-slab-—-72pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-bold;
+
+  font-size: $unnamed-font-size-60;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-ffffff;
+
+  text-transform: $unnamed-text-transform-uppercase;
+}
+
+.mobile-h2-black-zilla-slab-—-54pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-normal;
+
+  font-size: $unnamed-font-size-48;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+}
+
+.h3-white-zilla-slab-—-30pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-600;
+
+  font-size: $unnamed-font-size-30;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-ffffff;
+
+  text-transform: $unnamed-text-transform-uppercase;
+}
+
+.h3-black-zilla-slab-—-30pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-600;
+
+  font-size: $unnamed-font-size-30;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-191919;
+
+  text-transform: $unnamed-text-transform-uppercase;
+}
+
+.mobile-h3-black-zilla-slab-—-20pt {
+  font-family: $unnamed-font-family-zilla-slab;
+
+  font-style: $unnamed-font-style-normal;
+
+  font-weight: $unnamed-font-weight-600;
+
+  font-size: $unnamed-font-size-20;
+
+  letter-spacing: $unnamed-character-spacing-0;
+
+  color: $unnamed-color-000000;
+
+  text-transform: $unnamed-text-transform-uppercase;
+}
+
+$breakpoint-1600: 1600px;
+$breakpoint-1440: 1440px;
+$breakpoint-1280: 1280px;
+$breakpoint-999: 999px;
+$breakpoint-767: 767px;
+$breakpoint-640: 640px;
+$breakpoint-480: 480px;
+$breakpoint-400: 400px;

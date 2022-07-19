@@ -1,0 +1,155 @@
+@import "../../assets/css/config";
+
+.contact_section{
+  padding: 8% 0 3.125em;
+  .contact-row{
+    display: flex;
+    & > div{
+      width: 50%;
+    }
+    .contact-frm {
+      padding: 1em 0;
+      .frm{
+        padding: 0.625em 0;
+        label{
+          border: 0;
+          clip: rect(1px 1px 1px 1px);
+          clip: rect(1px, 1px, 1px, 1px);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0;
+          position: absolute;
+          width: 1px;
+        }
+        input, 
+        textarea,
+        select{
+          font-family: $unnamed-font-family-barlow;
+          font-style: $unnamed-font-style-normal;
+          font-weight: $unnamed-font-weight-normal;
+          font-size: $unnamed-font-size-24;
+          letter-spacing: $unnamed-character-spacing-0;
+          color: $unnamed-color-000000;
+          height: 3.125em;
+          box-shadow: none;
+          width: 100%;
+          padding: 0 1em;
+          outline: 0;
+        }
+        textarea{
+          height: 8em;
+          padding: 1em;
+        }     
+        select{
+            appearance: none;
+            -webkit-appearance: none;
+            background: transparent;
+            background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='35' viewBox='0 0 24 24' width='35' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+            background-repeat: no-repeat;
+            background-position-x: 100%;
+            background-position-y: 50%;
+        } 
+      }
+      button{
+            height: 2.33em;
+            background: $unnamed-color-efdf00 0% 0% no-repeat padding-box;
+            font-family: $unnamed-font-family-barlow;
+            font-style: $unnamed-font-style-normal;
+            font-weight: $unnamed-font-weight-600;
+            font-size: $unnamed-font-size-30;
+            color: $unnamed-color-000000;
+            text-transform: uppercase;
+            opacity: 1;
+            padding: 0 1em;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            border: 0;
+            outline: 0;
+            cursor: url('../../img/cursor2.png'), auto;
+            position: relative;
+            user-select: none;
+            transition: background-color .4s;
+
+            &::before{
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 50%;
+            }
+        }
+        .senticon {
+          background: #44C958;
+          color: transparent;
+
+          &::before {
+            width: 12px;
+            height: 27px;
+            transform: translateX(-50%) translateY(-60%) rotate(45deg);
+            border-bottom: 2px solid white;
+            border-right: 2px solid white;
+            animation: pulse 0.3s linear 1
+          }
+        }
+        .progress {
+          color: transparent;
+          background-color: darken(#D6C801, 8%);
+          
+          &::before{
+            width: 20px;
+            height: 20px;
+            //transform: translateX(-50%) translateY(-50%);
+            border: 2px solid rgba(255, 255, 255, .2);
+            border-right: 2px solid white;
+            border-radius: 50%;
+            animation: rotate .8s linear infinite;
+            margin-top: -10px;
+            margin-left: -10px;
+          }
+        }
+        
+        
+    }
+    .contact-image{
+      text-align: right;
+      img{
+        width: 83%;
+      }
+    }
+  }
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotate(-360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+@keyframes pulse{
+  25%{
+    transform: translateX(-50%) translateY(-60%) rotate(45deg) scale(0.8);
+  }
+  75%{
+    transform: translateX(-50%) translateY(-60%) rotate(45deg) scale(1.5);
+  }
+}
+@media (max-width: $breakpoint-767) {
+    .contact_section{
+      .contact-row{
+        flex-direction: column-reverse;
+        & > div{
+          width: 100%;
+        }
+        .contact-image{
+          text-align: center;
+          margin-bottom: 1em;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+}
